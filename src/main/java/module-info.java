@@ -12,5 +12,7 @@ module com.io.github.pedroolivsz.workshopjavafxjdbc {
     requires com.almasb.fxgl.all;
 
     opens com.io.github.pedroolivsz.workshopjavafxjdbc to javafx.fxml;
+    opens com.io.github.pedroolivsz.workshopjavafxjdbc.controller to javafx.fxml;
     exports com.io.github.pedroolivsz.workshopjavafxjdbc;
+
 }
